@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/layout"
+    android:background="@drawable/gradient_list">
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firstName"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="20"
+        android:textStyle="bold|italic"/>
+
+
+    <EditText
+        android:id="@+id/first_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="20"/>
+
+    <TextView
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lastName"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="20"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:id="@+id/last_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="20"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="SEND (I.E.)"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:backgroundTint="@color/b1"/>
+
+    <Button
+        android:id="@+id/browser_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="PAGINA TEC (I.I.)"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:backgroundTint="@color/b1"/>
+
+    <Button
+        android:id="@+id/extra_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="RANDOM SITE (I.I.)"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowRadius="20"
+        android:backgroundTint="@color/b1"/>
+</LinearLayout>

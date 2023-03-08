@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ListViewPersonalizado</string>
+    <string name="texto"></string>
+    <string name="encabezado">Frutas y Verduras</string>
+</resources>

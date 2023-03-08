@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/b1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Fragmento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona la operación deseada:" />
+
+    <Button
+        android:id="@+id/Agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Agregar" />
+
+    <Button
+        android:id="@+id/Modificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Modificar" />
+
+    <Button
+        android:id="@+id/Borrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Borrar" />
+</LinearLayout>

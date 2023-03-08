@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundMain">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:background="@color/barTop"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <ImageButton
+            android:id="@+id/button_menu_3_barras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:paddingLeft="15dp"
+            app:srcCompat="@drawable/bars"
+            app:title="Menu"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/text_Menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="@string/productos1"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <ImageButton
+            android:id="@+id/button_shoppingCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:minHeight="48dp"
+            android:paddingRight="30dp"
+            app:srcCompat="@drawable/shopping_cart"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:columnCount="2"
+        app:rowCount="3"
+        android:layout_gravity="center"
+        android:foregroundGravity="center">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/image_product1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@mipmap/trapeador"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/text_product1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Producto"
+                android:textColor="@color/black"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/text_product1_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="15dp"
+                android:text="$225"
+                android:textColor="@color/backgroundMain"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/image_product2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@mipmap/trapeador"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/text_product2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Producto"
+                android:textColor="@color/black"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/text_product2_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="15dp"
+                android:text="$225"
+                android:textColor="@color/backgroundMain"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/image_product3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@mipmap/trapeador"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/text_product3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Producto"
+                android:textColor="@color/black"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/text_product3_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="15dp"
+                android:text="$225"
+                android:textColor="@color/backgroundMain"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/image_product4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@mipmap/trapeador"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/text_product4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Producto"
+                android:textColor="@color/black"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/text_product4_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="15dp"
+                android:text="$225"
+                android:textColor="@color/backgroundMain"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/image_product5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@mipmap/trapeador"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/text_product5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Producto"
+                android:textColor="@color/black"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/text_product5_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="15dp"
+                android:text="$225"
+                android:textColor="@color/backgroundMain"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/image_product6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@mipmap/trapeador"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/text_product6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Producto"
+                android:textColor="@color/black"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/text_product6_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:paddingLeft="15dp"
+                android:text="$225"
+                android:textColor="@color/backgroundMain"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+
+    </androidx.gridlayout.widget.GridLayout>
+
+
+</LinearLayout>

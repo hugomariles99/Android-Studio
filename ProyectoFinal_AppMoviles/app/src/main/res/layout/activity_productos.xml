@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Toolbar-->
+    <include
+        android:id="@+id/paginaPrincipal_toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1091dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:translationZ="90dp">
+
+            <fragment
+                android:id="@+id/paginaPrincipal_fragment_menuTresBarras"
+                class="com.example.proyectofinal_appmoviles.menu_tres_barras"
+                android:layout_width="230dp"
+                android:layout_height="0dp"
+                android:layout_gravity="end"
+                android:layout_weight="40"
+                tools:layout="@layout/fragment_menu_tres_barras" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/paginaPrincipal_categorias"
+            layout="@layout/pagina_productos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

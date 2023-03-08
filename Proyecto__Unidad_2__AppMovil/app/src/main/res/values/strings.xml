@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Proyecto__Unidad_2__AppMovil</string>
+
+    <string name="productos1">Productos de ________</string>
+
+    <string name="menu_3_barras_encabezado">Nombre Apellido</string>
+
+    <string name="texto">Texto Fake</string>
+</resources>

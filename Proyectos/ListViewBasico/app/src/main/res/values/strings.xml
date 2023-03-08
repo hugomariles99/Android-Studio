@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ListViewBasico</string>
+    <string-array name="array_technology">
+        <item>Vex Mythoclast</item>
+        <item>Sleeper Simulant</item>
+        <item>One Thousand Voices</item>
+        <item>Xenophage</item>
+        <item>The Lament</item>
+        <item>Anarchy</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProyectoFinal_AppMoviles</string>
+    <string name="tres_barras">3 Barras</string>
+    <string name="categoria_banos">Baños</string>
+    <string name="categoria_cocina">Cocina</string>
+    <string name="categoria_hogar">Hogar</string>
+    <string name="categoria_inicio">Inicio</string>
+    <string name="dialogo_titulo">¿Seguro que quiere agregar este producto al carrito?</string>
+</resources>

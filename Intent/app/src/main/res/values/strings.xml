@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name = "firstName"> <u>First Name</u> </string>
+    <string name = "lastName"> <u>Last Name</u> </string>
+</resources>
